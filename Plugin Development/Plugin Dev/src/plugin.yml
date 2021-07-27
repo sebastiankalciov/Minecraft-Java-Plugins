@@ -1,0 +1,10 @@
+main: com.duckdev.duckplugin
+name: DuckPlugin
+version: 1.0
+
+commands:
+  salut:
+    description: Arunca cu pietre in tine
+    usage: /<command>
+    aliases: [sal]
+

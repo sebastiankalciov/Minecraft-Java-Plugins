@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CapInSpawn:jar">
+    <output-path>$PROJECT_DIR$/../plugins</output-path>
+    <root id="archive" name="CapInSpawn.jar">
+      <element id="module-output" name="CapInSpawn" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/HeadInSpawn/plugin.yml" />
+    </root>
+  </artifact>
+</component>

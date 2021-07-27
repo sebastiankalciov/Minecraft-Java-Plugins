@@ -1,0 +1,15 @@
+main: com.HeadInSpawn.CapInSpawn
+name: CapInSpawn
+version: 1.0
+
+
+commands:
+  addHead:
+    description: Adauga un cap in lista.
+    usage: /<command> <name> <msg>
+    aliases: [newHead]
+
+  getMessage:
+    description: Vezi mesajul unui cap.
+    usage: /<command> <name>
+    aliases: [ getMsg]

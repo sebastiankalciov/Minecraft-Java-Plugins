@@ -1,0 +1,4 @@
+# /addHead <nume_cap> <mesaj> - Adauga un cap in lista cu capete. <--- Adaugat
+# /getMessage <nume cap> - Vezi ce mesaj trimite un anumit cap. <--- Adaugat
+# /removeHead <nume cap> - Sterge un cap. <--- In lucru
+# /heads - Vezi toate capetele disponibile. <--- In lucru
