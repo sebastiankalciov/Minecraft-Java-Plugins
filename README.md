@@ -35,7 +35,7 @@ Heads:
     Greg:
       Message: 'Hello there!'
     John:
-      Message: 'How are you my friend? All good?'
+      Message: 'How are you, my friend? All good?'
 
   ```
                    
