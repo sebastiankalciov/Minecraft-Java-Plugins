@@ -1,0 +1,5 @@
+com\vallionblocker\utils\ConfigManager.class
+com\vallionblocker\commands\MainCommands.class
+com\vallionblocker\events\ChatListener.class
+com\vallionblocker\Main.class
+com\vallionblocker\utils\MainUtils.class

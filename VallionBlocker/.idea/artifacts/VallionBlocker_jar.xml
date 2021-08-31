@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VallionBlocker:jar">
+    <output-path>$PROJECT_DIR$/../../plugins</output-path>
+    <root id="archive" name="VallionBlocker.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/VallionBlockerPlugin/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
