@@ -38,4 +38,8 @@ Heads:
       Message: 'How are you, my friend? All good?'
 
   ```
+
+
+## 📛 VallionBlocker (v1.0) - Plugin for blocking commands in BungeeCord.
+  - Info soon
                    
