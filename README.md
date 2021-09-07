@@ -41,5 +41,27 @@ Heads:
 
 
 ## 📛 VallionBlocker (v1.0) - Plugin for blocking commands in BungeeCord.
-  - Info soon
+  - Bungeecord (Waterfall Fork)
+  - Usage location: *Vallion* (📢 public server).
+  - Plugin developed for *Vallion Community* for security reasons.
+  - Main feature has to kick users for using commands from a config file that are "illegal" to run in order to keep the server secured.
+  
+#### Commands:
+  - None
+
+#### Config file:
+  ```yml
+    # message_kick_console - Message that gets sent in console.
+    # message_kick: Message that appears when user gets kicked out.
+    # active (true/false) - Switch that remembers if the blocker is turned off or on, more precisely, if it's turned on users will get kicked for using the commands from list.
+    # commands [] - List that contains the commands
+  
+    message_kick_console: '{{player}} tried to use the command: {{command}}. Unfortunetly, she/he got stopped, haha idiot.'
+    message_kick: [VallionBlocker] You tried to use an illegal command on this server.
+    active: true
+    commands:
+      - defaultCommand1
+      - defaultCommand2
+  ```
+
                    
