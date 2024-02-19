@@ -1,7 +1,9 @@
-# Minecraft-Java-Plugins
-Plugins developed by myself in order to learn Java Programming and Minecraft Plugin Development.
+# Minecraft Java Plugins (outdated)
 
-## 🔧 DuckPlugin (v1.0) - betatesting plugin
+Plugins developed by myself in order to learn Java and Minecraft Plugin Development. 
+
+
+## 🔧 DuckPlugin (v1.0) - Plugin for educational purposes only
   - MC Version: *1.16.5*
   - Usage location: *duckcave* (🔐 private server)
   - Plugin used for testing purposes.
@@ -11,7 +13,7 @@ Plugins developed by myself in order to learn Java Programming and Minecraft Plu
   - MC Version: *1.16.5*
   - Usage location: *Vallion* (📢 public server).
   - Plugin developed for *Vallion Community*.
-  - It has only 1 main feature, with a couple of commands.
+  - It has only 1 main feature with a couple of commands.
 #### Commands:
 
   - [x] /addHead <name> <message> - Adds a skull to config file.
@@ -63,5 +65,4 @@ Heads:
       - defaultCommand1
       - defaultCommand2
   ```
-
                    
