@@ -1,6 +1,5 @@
 package com.HeadInSpawn;
 
-// Importam clase, functii, obiecte necesare
 import org.bukkit.Color;
 import org.bukkit.block.Block;
 import org.bukkit.command.Command;
@@ -24,45 +23,40 @@ public class CapInSpawn extends JavaPlugin {
     }
     @Override
     public boolean onCommand(@Nonnull CommandSender player, Command command, @Nonnull String label, @Nonnull String[] args) {
-        // Eventul onCommand verifica daca o comanda utilizata de user este una dintre ale plugin-ului
-        // Astfel adaugam conditii pentru a verifica acest lucru
+
         if (command.getName().equals("addHead")) {
-            // Daca numele comenzii este addHead si utilizatorul nu a specificat niste argumente
+            
+            // If there are no given arguments it stops the execution
             if (args.length == 0 || args.length == 1) {
-                // Se returneaza valoarea false si mai apoi se trimite in chat utilizarea corecta a comenzii
+             
                 return false;
             } else {
-                // In caz contrar, se apeleaza o functie din clasa cu comenzi
+         
 
-                StringBuilder sb = new StringBuilder();
-                // Initializam o variabila de tip builder
-                // pentru a adauga fiecare argument din lista cu argumente intr un singur string
+                StringBuilder rawInput = new StringBuilder();
+
                 for (int i = 1; i < args.length; i++)
                 {
-                    sb.append(args[i]).append(" ");
+                    rawInput.append(args[i]).append(" ");
                 }
-                // Ca apoi sa initializam o variabila message ce contine toata argumentele, exceptand primul,
-                // acesta fiind considerat numele capului
-                String message = sb.toString().trim();
+                
+                // args[0] is the name of the head
+                String message = rawInput.toString().trim();
                 new MainCommands().addHead(args[0], message, player);
 
             }
 
         } else if (command.getName().equals("getMessage")) {
-            // Daca numele comenzii este addHead si utilizatorul nu a specificat numele capului
+            
             if (args.length == 0) {
-                // Se efectueaza aceeasi operatie ca la comanda anterioara
+    
                 return false;
             } else {
-                // In caz contrar, se efectueaza ca la comanda anterioara, doar utilizand alta functie
                 new MainCommands().getMessage(args[0], player);
-
             }
         }
         return true;
-        // Se returneaza valorea true asta inseamna ca, comanda a fost utilizata cu succes
     }
-
 
     @Override
     public void onDisable() {
